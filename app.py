@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 model = tf.keras.models.load_model('Diabetic_model.h5')
-scaler = joblib.load('Scaler.pkl')
+scaler = joblib.load('scaler.pkl')
 
 st.set_page_config(page_title="Diabetes Prediction App", layout="centered")
 st.title("Diabetes Prediction App")
