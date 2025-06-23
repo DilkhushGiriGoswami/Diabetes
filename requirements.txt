@@ -3,4 +3,4 @@ pandas
 joblib
 scikit-learn
 streamlit
-tensorflow==2.13.0
+tensorflow
